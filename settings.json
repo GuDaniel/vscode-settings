@@ -1,0 +1,47 @@
+{
+    "python.defaultInterpreterPath": "py",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": ["-ExecutionPolicy", "Bypass"]
+        }
+    },
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        
+    },
+    "editor.minimap.enabled": false,
+    "explorer.autoReveal": false,
+    "python.pythonPath": "py",
+    "python.showStartPage": false,
+    "files.exclude": {
+        "**/__init__.py": false,
+        "**/*.d": true,
+        "**/*.meta": true,
+        "**/*.o": true,
+        "**/index.js": false
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "editor.fontSize": 13,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.acceptSuggestionOnCommitChiaracter": false,
+    "vim.statusBarColors.insert": "#BF302D",
+    "vim.useSystemClipboard": true,
+    "editor.cursorStyle": "block",
+    "csharp.referencesCodeLens.enabled": false,
+    "explorer.compactFolders": false,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": -1,
+}
